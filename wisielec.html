@@ -1,15 +1,30 @@
 <DOCTYPE HTML>
 <html lang = "pl">
 <head>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 <title>Gra Wisielec</title>
 <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <h1>Gra Wisielec</h1>
-<div id="div1">Użyte litery<ol id="listaID"></ol></div>
-<div id="div3">Złe litery<ol id="listaID2"></ol></div>
+<div id="uzyte">Użyte litery<ol id="listaID"></ol></div>
+
+<div id="zle">Złe litery<ol id="listaID2"></ol></div>
+
 <div id="literyinput1"><input id="literyinput" type="text" placeholder="Wpisz literę"></div>
-<div id="div2">Słowo do odgadnięcia <p id="slowo_kod"></p></div>
+
+<div id="slowo">Słowo do odgadnięcia <p id="slowo_kod"></p></div>
+
+<div id="poddaj" onclick="zakonczGre()"> Poddaj się</div>
+<div id="punkty">Punkty: 0</div>
+
+<div style="clear:both;"></div>
+<p id="koniec_gry"></p>
+<div id="przycisk"></div>
+<p id="instrukcja">INSTRUKCJA
+<br>
+Wpisuj po 1 literze do pola tekstowego, a gra sprawdzi, czy podana litera występuje w słowie.
+</p>
 <script src="script.js"></script>
 
 

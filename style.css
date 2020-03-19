@@ -1,34 +1,114 @@
-#div1{
-float: left;
-width: 150px;
-text-align: center;
-font-size: 20px;
-border: 3px;
-border-style: solid;
-border-color: rgb(163, 113, 47);
-}
-#div3{
+#uzyte{
     float: left;
-    width: 100px;
+    width: 150px;
     text-align: center;
     font-size: 20px;
-    border: 3px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(163, 113, 47);
+    background-color: rgb(160, 132, 95);
+}
+
+#zle{
+    float: left;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    border-width: 5px;    
     border-style: solid;
     border-color: rgb(233, 13, 13);
+    background-color: rgb(219, 71, 71);
 }
-#div2{
-float: left;
-width: 300;
-text-align: center;
-font-size: 20px;
+#slowo{
+    float: left;
+    width: 600px;
+    text-align: center;
+    font-size: 20px;
+    border-width: 5px;    
+    border-style: solid;
+    border-color: rgb(34, 40, 121);
+    background-color: rgb(52, 57, 124); 
+}
 
-}
 #literyinput1{
     float: left;
-    width: 570px;
+    width: 300px;
     text-align: center;
+}
 
+#literyinput{
+    font-size: 20px;
+    width: 120px;
 }
 h1{
     text-align: center;
+    font-size: 30pt;    
+}
+#instrukcja{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+
+}
+body{
+    background-color: rgb(50, 55, 122);
+    color: white;
+    font-family: Lato;
+
+}
+#koniec_gry{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#punkty{
+    float: left;
+    font-size: 20px;
+    width: 150px;
+    height: 44px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(55, 88, 12);
+    background-color: rgb(71, 98, 35);
+
+}
+#listaID{
+    text-align: center;
+}
+#listaID2{
+    text-align: center;    
+}
+#przycisk{
+    text-align: center;
+
+}
+#poddaj{
+    float: left;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(223, 18, 18);
+    background-color: rgb(230, 99, 99);
+    padding: 10px;
+}
+#poddaj:hover{
+    border-style: dotted;
+    cursor: pointer;
+    background-color: rgb(194, 34, 34);    
+}
+.reset
+{
+	color:green;
+	cursor: pointer;
+    font-size: 48px;
+
+}
+
+.reset:hover
+{
+    color:white;
+	cursor: pointer;    
 }
